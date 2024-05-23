@@ -1,0 +1,59 @@
+.my-div {
+  color: red;
+  background-color: black;
+}
+
+.xs_container {
+  max-width: 576px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .xs_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.sm_container {
+  max-width: 768px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .sm_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.md_container {
+  max-width: 1024px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .md_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.lg_container {
+  max-width: 1290px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .lg_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.xl_container {
+  max-width: 1440px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .xl_container {
+    padding: 0 0.5rem;
+  }
+}/*# sourceMappingURL=mixin.css.map */

@@ -1,0 +1,3124 @@
+.my-div {
+  color: red;
+  background-color: black;
+}
+
+.xs_container {
+  max-width: 576px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .xs_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.sm_container {
+  max-width: 768px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .sm_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.md_container {
+  max-width: 1024px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .md_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.lg_container {
+  max-width: 1290px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .lg_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.xl_container {
+  max-width: 1440px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .xl_container {
+    padding: 0 0.5rem;
+  }
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+header, body, main, footer, section {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+section, div, ul, p, picture, img {
+  width: 100%;
+}
+
+html {
+  color: black;
+  box-sizing: border-box;
+  font-size: 67.5%;
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 2.5vw;
+  }
+}
+
+body {
+  color: black;
+  font-size: 1.6rem;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+
+.pc_on {
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  .pc_on {
+    display: none !important;
+  }
+}
+
+.sp_on {
+  display: none !important;
+}
+@media only screen and (max-width: 768px) {
+  .sp_on {
+    display: block;
+  }
+}
+
+.human_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0.5rem;
+  max-width: 29.3rem;
+  position: relative;
+  width: 99%;
+}
+@media only screen and (max-width: 1024px) {
+  .human_card {
+    margin: 0 auto;
+    max-width: 62.3rem;
+  }
+}
+.human_card p {
+  text-align: center;
+}
+.human_card p.number {
+  font-size: 3.1rem;
+  font-style: italic;
+}
+.human_card p.detail {
+  font-size: 1.4rem;
+  text-align: left;
+}
+.human_card p.infor {
+  font-size: 1.6rem;
+  padding-top: 1.2rem;
+}
+.human_card h5 {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+.human_card picture {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.human_card picture img {
+  aspect-ratio: 632/683;
+  transition: 0.3s;
+  width: 100%;
+}
+.human_card:hover picture img {
+  transform: scale(1.1);
+  opacity: 0.3;
+}
+
+.human_left_card {
+  display: flex;
+  max-width: 82rem;
+  position: relative;
+  width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .human_left_card {
+    display: block;
+  }
+}
+.human_left_card .txt {
+  padding: 1rem 2rem;
+  width: calc(100% - 29rem);
+}
+@media only screen and (max-width: 768px) {
+  .human_left_card .txt {
+    padding: 1rem 0.5rem;
+    width: 100%;
+  }
+}
+.human_left_card .txt p {
+  font-size: 1.2rem;
+  padding-top: 1.4rem;
+  line-height: 1.1;
+}
+.human_left_card .txt h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.human_left_card picture {
+  width: 29rem;
+}
+.human_left_card picture img {
+  aspect-ratio: 314/331;
+  width: 29rem;
+}
+
+a.red_btn {
+  background: #FF9A62;
+  color: white;
+  font-size: 3rem;
+  line-height: 2.3;
+  padding: 0rem 3rem;
+}
+@media only screen and (max-width: 768px) {
+  a.red_btn {
+    font-size: 2rem;
+  }
+}
+a.red_btn:hover {
+  background: #111111;
+}
+
+.arrow_right, .slick-next {
+  width: 0;
+  height: 0;
+  border-top: 8.6rem solid transparent;
+  border-bottom: 8.6rem solid transparent;
+  border-left: 5.3rem solid #DFE3E8;
+  right: -74px;
+  top: 58%;
+  z-index: 100;
+}
+@media only screen and (max-width: 1024px) {
+  .arrow_right, .slick-next {
+    border-top: 7.6rem solid transparent;
+    border-bottom: 7.6rem solid transparent;
+    border-left: 4.3rem solid #DFE3E8;
+    right: -59px;
+    top: 61%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .arrow_right, .slick-next {
+    border-top: 4.6rem solid transparent;
+    border-bottom: 4.6rem solid transparent;
+    border-left: 2.5rem solid #DFE3E8;
+    right: -1.5rem;
+    top: 58%;
+  }
+}
+.arrow_right::before, .slick-next::before {
+  content: "";
+}
+
+.arrow_left, .slick-prev {
+  width: 0;
+  height: 0;
+  border-top: 8.6rem solid transparent;
+  border-bottom: 8.6rem solid transparent;
+  border-right: 5.3rem solid #DFE3E8;
+  left: -74px;
+  top: 58%;
+  z-index: 100;
+}
+@media only screen and (max-width: 1024px) {
+  .arrow_left, .slick-prev {
+    border-top: 7.6rem solid transparent;
+    border-bottom: 7.6rem solid transparent;
+    border-right: 4.3rem solid #DFE3E8;
+    left: -59px;
+    top: 61%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .arrow_left, .slick-prev {
+    border-top: 4.6rem solid transparent;
+    border-bottom: 4.6rem solid transparent;
+    border-right: 2.5rem solid #DFE3E8;
+    left: -1.5rem;
+    top: 58%;
+  }
+}
+.arrow_left::before, .slick-prev::before {
+  content: "";
+}
+
+.arrow_up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+
+.arrow_down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #f00;
+}
+
+.yellow_bg {
+  background: url(../image/style_bg.png);
+  background-size: cover;
+  position: relative;
+  border-bottom: 0.1rem black solid;
+  border-top: 0.1rem black solid;
+}
+
+.navigation {
+  padding: 1rem 4rem;
+}
+@media only screen and (max-width: 768px) {
+  .navigation {
+    padding: 1rem 1rem;
+  }
+}
+.navigation p a {
+  margin-right: 3rem;
+  position: relative;
+  cursor: pointer;
+}
+.navigation p a::after {
+  content: "/";
+  position: absolute;
+  right: -2rem;
+}
+.navigation p:last-child {
+  text-align: end;
+  width: 9rem;
+}
+
+.ico_box a {
+  margin-right: 2rem;
+  width: 3rem;
+}
+.ico_box a img {
+  width: 100%;
+}
+.ico_box a img.face {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .ico_box a {
+    margin-right: 1rem;
+    width: 2rem;
+  }
+}
+
+.loginmodal, .logonmodal {
+  background: rgba(255, 255, 255, 0.5019607843);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 900;
+}
+.loginmodal.hidden, .logonmodal.hidden {
+  display: none;
+}
+.loginmodal form, .logonmodal form {
+  background: white;
+  border: 1px solid black;
+  border-radius: 2rem;
+  min-height: 43rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem 4rem;
+  width: 42rem;
+}
+@media only screen and (max-width: 768px) {
+  .loginmodal form, .logonmodal form {
+    min-height: 31rem;
+    width: 30rem;
+  }
+}
+.loginmodal form div, .logonmodal form div {
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 35rem;
+}
+.loginmodal form div input, .logonmodal form div input {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  width: 24rem;
+}
+.loginmodal form div select, .logonmodal form div select {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  width: 24rem;
+}
+@media only screen and (max-width: 768px) {
+  .loginmodal form div, .logonmodal form div {
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    width: 24rem;
+  }
+  .loginmodal form div input, .loginmodal form div select, .logonmodal form div input, .logonmodal form div select {
+    width: 17rem;
+  }
+}
+.loginmodal form div.btn, .logonmodal form div.btn {
+  width: 29rem;
+  margin-top: 4rem;
+}
+@media only screen and (max-width: 768px) {
+  .loginmodal form div.btn, .logonmodal form div.btn {
+    margin-top: 2rem;
+    width: 26rem;
+  }
+}
+.loginmodal form div.btn button, .logonmodal form div.btn button {
+  border-radius: 0.5rem;
+  color: black;
+  font-weight: bold;
+  margin: 1rem 1rem 0rem 1rem;
+  padding: 0rem 1rem;
+}
+.loginmodal form div.btn button:nth-child(1), .logonmodal form div.btn button:nth-child(1) {
+  background: #16BB3A;
+}
+.loginmodal form div.btn button:nth-child(2), .logonmodal form div.btn button:nth-child(2) {
+  background: #FC0000;
+}
+.loginmodal form a, .logonmodal form a {
+  cursor: pointer;
+  display: block;
+  margin-top: 4rem;
+  text-align: end;
+  text-decoration: underline;
+}
+
+ul.nav {
+  background: #919EAB;
+  padding-left: 1rem;
+  padding-top: 5rem;
+  width: 21rem;
+  min-height: 64rem;
+}
+@media only screen and (max-width: 768px) {
+  ul.nav {
+    padding-left: 0.5rem;
+    padding-top: 2rem;
+    width: 11rem;
+  }
+}
+ul.nav li {
+  padding: 1.5rem 0px;
+}
+ul.nav li a {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+ul.nav li a img {
+  padding: 0 1rem;
+  width: 5rem;
+}
+@media only screen and (max-width: 768px) {
+  ul.nav li a img {
+    padding: 0 0.3rem 0 0;
+    width: 2rem;
+  }
+}
+ul.nav li a span {
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  ul.nav li a span {
+    font-size: 1.1rem;
+  }
+}
+
+.gray {
+  background: #f8f1f1;
+}
+
+.sel_bg {
+  background: gainsboro;
+}
+
+.page_nav {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0 0;
+}
+.page_nav.a_review {
+  background: white;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 3rem 0;
+}
+
+.page-numbers {
+  font-size: 1.4rem;
+  border: #DFE3E8 1px solid;
+  border-radius: 0.4rem;
+  height: 3.2rem;
+  line-height: 3.2rem;
+  text-align: center;
+  margin: 0 0.8rem;
+  width: 3.2rem;
+}
+.page-numbers:hover {
+  color: #4200FF;
+  border: #4200FF 1px solid;
+}
+.page-numbers.prev, .page-numbers.next {
+  color: #C4CDD5;
+  border: #C4CDD5 1px solid;
+  line-height: 2.7rem;
+}
+.page-numbers.prev:hover, .page-numbers.next:hover {
+  color: white;
+  background: #C4CDD5;
+}
+
+.main_video {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.slick-slide {
+  opacity: 0.3;
+  transform: scale(0.8) translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+  margin: 0 -20px;
+}
+
+.slick-current {
+  opacity: 1;
+  transform: scale(0.98);
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 2;
+}
+@media only screen and (max-width: 768px) {
+  .slick-current {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.filter {
+  filter: blur(5px);
+}
+
+.full_vh {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrap {
+  filter: blur(5px);
+  height: 100vh;
+  width: 100vw;
+}
+
+.none {
+  display: none !important;
+}
+
+textarea#host_content {
+  border: 1px solid #111111;
+  border-radius: 0.3rem;
+  padding: 0.6rem 1rem;
+  width: 100%;
+}
+
+.error_box {
+  min-height: 90vh;
+  padding: 2rem 0;
+}
+.error_box h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.error_box p {
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  padding: 3rem 0 6rem;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .error_box h2 {
+    font-size: 1.8rem;
+  }
+  .error_box p {
+    font-size: 1.3rem;
+  }
+}
+
+.con_schedule {
+  margin-bottom: 4rem;
+}
+.con_schedule div {
+  border: 1px #111111 solid;
+  border-bottom: 0;
+  padding: 1rem;
+}
+.con_schedule div:last-child {
+  border-bottom: 1px #111111 solid;
+}
+.con_schedule div p.th {
+  width: 10rem;
+}
+.con_schedule div p.td {
+  width: 28rem;
+}
+
+.my-div {
+  color: red;
+  background-color: black;
+}
+
+.xs_container {
+  max-width: 576px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .xs_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.sm_container {
+  max-width: 768px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .sm_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.md_container {
+  max-width: 1024px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .md_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.lg_container {
+  max-width: 1290px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .lg_container {
+    padding: 0 0.5rem;
+  }
+}
+
+.xl_container {
+  max-width: 1440px;
+  padding: 0 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .xl_container {
+    padding: 0 0.5rem;
+  }
+}
+
+@font-face {
+  font-family: "Cinzel";
+  font-display: swap;
+  src: url("../fonts/Cinzel-Regular.woff2") format("woff2"), url("../fonts/Cinzel-Regular.woff") format("woff"), url("../fonts/Cinzel-Regular.eot") format("eot"), url("../fonts/Cinzel-Regular.ttf") format("truetype");
+}
+body {
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+.italiana {
+  font-family: "Italiana", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+html body {
+  position: relative;
+  max-width: 1440px;
+}
+html body header.xl_container {
+  background: black;
+  box-shadow: 1px 1px 1px white;
+  padding: 2.6rem 5.3rem 0;
+  transition: all ease-in-out 300ms;
+}
+html body header.xl_container p {
+  margin-left: -2rem;
+  padding-left: 0rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+html body header.xl_container p.text-white {
+  margin-right: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  html body header.xl_container p {
+    margin-left: 0rem;
+    padding-left: 0rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 1.2rem;
+  }
+  html body header.xl_container p.text-white {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+  }
+}
+html body header.xl_container h1 {
+  padding-top: 0rem;
+}
+@media only screen and (max-width: 768px) {
+  html body header.xl_container h1 {
+    margin-top: -2.2rem;
+    padding-top: 0.4rem;
+  }
+}
+html body header.xl_container h1 a {
+  display: flex;
+  align-items: center;
+}
+html body header.xl_container h1 a img {
+  aspect-ratio: 463/170;
+  width: 26.8rem;
+}
+@media only screen and (max-width: 768px) {
+  html body header.xl_container h1 a img {
+    width: 13.6rem;
+  }
+}
+html body header.xl_container h1 a p {
+  font-size: 3rem;
+  padding-left: 2.2rem;
+}
+@media only screen and (max-width: 768px) {
+  html body header.xl_container h1 a p {
+    font-size: 2.3rem;
+    padding-left: 0.2rem;
+  }
+}
+html body header.xl_container ul {
+  padding-top: 0.8em;
+  width: 57.7rem;
+}
+@media only screen and (max-width: 768px) {
+  html body header.xl_container ul {
+    padding-top: 0.3em;
+  }
+}
+html body header.xl_container ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body header.xl_container ul li a {
+  line-height: 3.6;
+  padding: 0 1.2rem;
+}
+html body header.xl_container ul li a:hover {
+  background: rgba(217, 217, 217, 0.4);
+}
+@media only screen and (max-width: 1024px) {
+  html body header.xl_container ul li a {
+    font-size: 1.2rem;
+    line-height: 2.2;
+    padding: 0 1.4rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html body header.xl_container ul li a {
+    font-size: 1.4rem;
+    padding: 0 1.4rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  html body header.xl_container ul {
+    width: 38.7rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html body header.xl_container {
+    padding: 0.8rem 1rem 0;
+  }
+  html body header.xl_container div {
+    display: block;
+  }
+}
+html body header.xl_container.scroll {
+  padding: 1.6rem 5.3rem;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+@media only screen and (max-width: 768px) {
+  html body header.xl_container.scroll {
+    padding: 0.8rem 1rem;
+  }
+}
+html body header.xl_container.scroll div {
+  display: none;
+}
+html body header.xl_container.scroll:hover div {
+  display: flex;
+}
+@media only screen and (max-width: 768px) {
+  html body header.xl_container.scroll:hover {
+    padding: 0.8rem 1rem;
+  }
+  html body header.xl_container.scroll:hover div {
+    display: block;
+  }
+}
+html body main div.age-gate__wrapper {
+  box-sizing: border-box;
+  height: calc(100vh - var(--vh-offset, 0px));
+  left: var(--ag-form-left, 0);
+  overflow-y: var(--ag-form-overlow, auto);
+  padding: var(--ag-wrapper-padding, 20px);
+  position: var(--ag-form-position, fixed);
+  text-align: var(--ag-text-align, center);
+  top: var(--ag-form-top, 0);
+  transition-duration: var(--ag-transition-duration, 0.3s);
+  transition-property: all;
+  transition-timing-function: var(--ag-transition-timing, ease);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--ag-overlay-width, 100%);
+  z-index: var(--ag-form-z-index, 10000);
+}
+html body main div.age-gate__wrapper .age-gate {
+  background-color: var(--ag-form-background, #fff);
+  border: 0.1rem #111111 solid;
+  border-radius: 0.5rem;
+  box-shadow: var(--ag-form-shadow, none);
+  color: var(--ag-text-color, #333);
+  margin: var(--ag-form-margin, auto);
+  max-height: var(--ag-form-max-height, calc(94vh - var(--vh-offset, 0px)));
+  max-width: var(--ag-form-max-width, 500px);
+  overflow-y: auto;
+  padding: var(--ag-form-padding, 20px);
+  position: relative;
+  scrollbar-width: var(--ag-scrollbar-display, none);
+  width: 100%;
+  z-index: var(--ag-form-z-index, 100);
+}
+html body main div.age-gate__wrapper .age-gate .age-gate__form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate__heading-title--logo {
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  max-width: 33rem;
+}
+html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate-subheadline, html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate__subheadline {
+  font-size: var(--ag-text-subheadline-size, 1.7rem);
+  font-weight: var(--ag-text-subheadline-weight, 500);
+  margin: 2rem 0 1rem 0;
+}
+@media only screen and (max-width: 768px) {
+  html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate-subheadline, html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate__subheadline {
+    font-size: 1.3rem;
+  }
+}
+html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate-fields, html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate__fields {
+  border-width: 0;
+  display: block;
+  margin: var(--ag-fields-margin, 0 auto 1rem);
+  max-width: var(--ag-fields-width, 100%);
+  padding: 0;
+  width: 100%;
+}
+html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate-fields .age-gate-buttons, html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate-fields .age-gate__buttons, html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate__fields .age-gate-buttons, html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate__fields .age-gate__buttons {
+  align-items: center;
+  display: flex;
+  gap: var(--ag-button-gap, 10px);
+  justify-content: center;
+}
+html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate-fields .age-gate-buttons button, html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate-fields .age-gate__buttons button, html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate__fields .age-gate-buttons button, html body main div.age-gate__wrapper .age-gate .age-gate__form .age-gate__fields .age-gate__buttons button {
+  background-color: var(--ag-button-color-background, #333);
+  border: var(--ag-button-border, 0);
+  border-radius: var(--ag-button-radius, 3px);
+  color: var(--ag-button-color-text, #fff);
+  cursor: var(--ag-button-cursor, pointer);
+  font-size: var(--ag-button-size, 1.7rem);
+  font-weight: var(--ag-button-weight, 600);
+  padding: var(--ag-button-padding, 0.5rem 1rem);
+  margin: 4rem 1rem 3rem 1rem;
+}
+html body main section.xl_container {
+  padding-bottom: 6.8rem;
+  padding-top: 10.2rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container {
+    padding-top: 6.2rem;
+  }
+}
+html body main section.xl_container h2 {
+  font-size: 4.8rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container h2 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}
+html body main section.xl_container p.txt {
+  font-size: 1.6rem;
+  padding-bottom: 4.3rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container p.txt {
+    font-size: 1.4rem;
+  }
+}
+html body main section.xl_container.top_header {
+  padding: 0;
+}
+html body main section.xl_container.top_header picture:nth-child(2):nth-child(2) img {
+  margin-top: 13.6rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_header picture:nth-child(2):nth-child(2) img {
+    margin-top: 4.6rem;
+  }
+}
+html body main section.xl_container.top_ranking {
+  border-top: 0.1rem black solid;
+  margin-top: 3.2rem;
+  padding-top: 0;
+}
+html body main section.xl_container.top_ranking p.txt {
+  padding-bottom: 1.3rem;
+  border-bottom: 0.1rem black solid;
+}
+html body main section.xl_container.top_ranking div p.number {
+  padding-left: 5rem;
+  position: relative;
+}
+html body main section.xl_container.top_ranking div p.number::before {
+  background: url(../image/No.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "";
+  height: 5rem;
+  top: calc(50% - 1.6rem);
+  left: calc(50% - 5rem);
+  position: absolute;
+  width: 6rem;
+}
+html body main section.xl_container.top_ranking div.first_rank {
+  margin: 0 auto;
+  margin-bottom: 0.2rem;
+  padding: 2rem;
+  max-width: 45.2rem;
+  width: 45.2rem;
+}
+html body main section.xl_container.top_ranking div.first_rank a {
+  background: url(../image/cast_border_golden.png);
+  background-size: 100% 100%;
+  padding: 1.9rem 2.8rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_ranking div.first_rank {
+    margin-bottom: 1.2rem;
+    width: 70%;
+  }
+  html body main section.xl_container.top_ranking div.first_rank a {
+    padding: 0.9rem 1.6rem;
+  }
+  html body main section.xl_container.top_ranking div.first_rank picture img {
+    margin: 0 auto;
+    width: 78%;
+  }
+}
+html body main section.xl_container.top_ranking div.secondd_rank {
+  margin: 0 auto;
+  padding: 1.8rem 0.5rem 0;
+  width: 74rem;
+}
+html body main section.xl_container.top_ranking div.secondd_rank a {
+  background: url(../image/cast_border_silver.png);
+  background-size: 100% 100%;
+  padding: 1.9rem 2.8rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_ranking div.secondd_rank {
+    width: 100%;
+  }
+  html body main section.xl_container.top_ranking div.secondd_rank a {
+    padding: 0.9rem 1.6rem;
+  }
+}
+html body main section.xl_container.top_ranking div.grid {
+  grid-row-gap: 1.5rem;
+  padding: 2.5rem 6rem 7.2rem;
+}
+html body main section.xl_container.top_ranking div.grid a {
+  background: url(../image/cast_border_silver.png);
+  background-size: 100% 100%;
+  padding: 1.9rem 2.8rem;
+}
+html body main section.xl_container.top_ranking div.grid div.end_rank a {
+  background: url(../image/cast_border_copper.png);
+  background-size: 100% 100%;
+}
+@media only screen and (max-width: 1290px) {
+  html body main section.xl_container.top_ranking div.grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  html body main section.xl_container.top_ranking div.grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 2.5rem 0.5rem 7.2rem;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_ranking div.grid a {
+    padding: 0.9rem 1.6rem;
+  }
+}
+html body main section.xl_container.top_ranking a.red_btn {
+  margin: 0 auto;
+}
+html body main section.xl_container.top_cast .top_slider {
+  margin: 0 auto;
+  max-width: 97.2rem;
+  width: 85%;
+}
+html body main section.xl_container.top_cast .top_slider div {
+  width: 100%;
+}
+html body main section.xl_container.top_cast .top_slider div .human_card {
+  margin: 0 auto;
+  width: 90%;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_cast .top_slider div .human_card {
+    width: 100%;
+  }
+}
+html body main section.xl_container.top_cast .top_slider div .human_card picture {
+  width: 100%;
+}
+html body main section.xl_container.top_cast .top_slider div .human_card picture img {
+  width: 100%;
+}
+html body main section.xl_container.top_cast .top_slider div .human_card p.infor {
+  display: none;
+}
+html body main section.xl_container.top_cast .arrow {
+  left: 3.7%;
+  top: 37%;
+  width: 91.5%;
+}
+html body main section.xl_container.top_cast .top_cast_btn {
+  padding-top: 7.3rem;
+}
+html body main section.xl_container.top_realrank ul {
+  padding-top: 5.8rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_realrank ul {
+    padding-top: 0.8rem;
+  }
+}
+html body main section.xl_container.top_realrank ul li {
+  margin-bottom: 5.4rem;
+}
+html body main section.xl_container.top_realrank ul li .human_left_card {
+  width: 61%;
+}
+html body main section.xl_container.top_realrank ul li .human_left_card img {
+  opacity: 0.4;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_realrank ul li .human_left_card img {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  html body main section.xl_container.top_realrank ul li .human_left_card {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_realrank ul li .human_left_card {
+    display: block;
+    margin: 0 auto;
+  }
+  html body main section.xl_container.top_realrank ul li .human_left_card picture {
+    display: block;
+    margin: 0 auto;
+    width: 22rem;
+  }
+}
+html body main section.xl_container.top_realnews ul {
+  grid-row-gap: 3.7rem;
+  margin: 0 auto;
+  max-width: 125.1rem;
+  padding: 11.6rem 1rem 0;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_realnews ul {
+    padding-top: 3rem;
+  }
+}
+html body main section.xl_container.top_realnews ul li {
+  padding-left: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_realnews ul li {
+    padding-bottom: 4rem;
+    padding-left: 0rem;
+  }
+}
+html body main section.xl_container.top_realnews ul li div.human_left_card {
+  width: 100%;
+}
+html body main section.xl_container.top_realnews ul li div.human_left_card .txt {
+  width: calc(100% - 23.3rem);
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_realnews ul li div.human_left_card .txt {
+    padding: 0 0.5rem;
+    width: 100%;
+  }
+}
+html body main section.xl_container.top_realnews ul li div.human_left_card picture {
+  width: 18.5rem;
+}
+html body main section.xl_container.top_realnews ul li div.human_left_card picture img {
+  aspect-ratio: 506/470;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_realnews ul li div.human_left_card picture img {
+    margin: 0 auto;
+  }
+}
+html body main section.xl_container.top_realnews ul li div.human_left_card a.more_link {
+  border-bottom: 1px black solid;
+  bottom: -0.3rem;
+  font-weight: bold;
+  right: 3rem;
+  position: absolute;
+  padding-bottom: 0.4rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_realnews ul li div.human_left_card a.more_link {
+    bottom: -4.1rem;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  html body main section.xl_container.top_realnews ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+html body main section.xl_container.top_review {
+  padding: 6rem 1rem;
+  max-width: 121.1rem;
+  width: 100%;
+}
+html body main section.xl_container.top_review h2 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  line-height: 1;
+}
+html body main section.xl_container.top_review h2 span {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_review h2 {
+    font-size: 3rem;
+  }
+  html body main section.xl_container.top_review h2 span {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 1290px) {
+  html body main section.xl_container.top_review {
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_review {
+    padding: 3rem 1rem;
+  }
+}
+html body main section.xl_container.top_review .p_imgs {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-left: 3%;
+  width: 47.3%;
+}
+@media only screen and (max-width: 1290px) {
+  html body main section.xl_container.top_review .p_imgs {
+    width: 100%;
+    padding: 4rem 3% 0;
+  }
+}
+html body main section.xl_container.top_review .imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  padding-top: 4rem;
+  width: 100%;
+}
+html body main section.xl_container.top_review .imgs div.card {
+  border: 0.1rem gray solid;
+  padding-bottom: 2rem;
+}
+html body main section.xl_container.top_review .imgs div.card div.picture {
+  position: relative;
+  aspect-ratio: 1/0.9;
+}
+html body main section.xl_container.top_review .imgs div.card div.picture p.date {
+  background: rgba(17, 17, 17, 0.6901960784);
+  color: white;
+  bottom: 0;
+  line-height: 3;
+  text-align: center;
+  position: absolute;
+}
+html body main section.xl_container.top_review .imgs div.card p.topic {
+  font-weight: bold;
+  padding-top: 2rem;
+}
+html body main section.xl_container.top_review .imgs div.card p.name {
+  color: red;
+  font-weight: bold;
+}
+html body main section.xl_container.top_review .review {
+  width: 50%;
+}
+@media only screen and (max-width: 1290px) {
+  html body main section.xl_container.top_review .review {
+    width: 100%;
+    padding: 8rem 3% 0;
+  }
+}
+html body main section.xl_container.top_review .review .history_card {
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+html body main section.xl_container.top_review .review .history_card a {
+  width: 100%;
+}
+html body main section.xl_container.top_review .review .history_card .card_header p.index {
+  color: #D10D5F;
+  width: 10rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_review .review .history_card .card_header p.index {
+    font-size: 1.2rem;
+  }
+}
+html body main section.xl_container.top_review .review .history_card .card_header div.line_circle {
+  display: flex;
+  align-items: end;
+  padding-bottom: 1.7rem;
+  padding-left: 1rem;
+  width: 8rem;
+}
+html body main section.xl_container.top_review .review .history_card .card_header div.line_circle div {
+  height: 0.4rem;
+  width: 3.8rem;
+  background: #cccccc;
+  position: relative;
+}
+html body main section.xl_container.top_review .review .history_card .card_header div.line_circle div::after {
+  background: #cccccc;
+  border-radius: 50%;
+  content: "";
+  height: 1.6rem;
+  position: absolute;
+  top: -0.6rem;
+  right: -0.4rem;
+  width: 1.6rem;
+}
+html body main section.xl_container.top_review .review .history_card .card_header picture {
+  margin-top: 1rem;
+  width: 4.3rem;
+}
+html body main section.xl_container.top_review .review .history_card .card_header picture img {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_review .review .history_card .card_header picture img {
+    width: 2.7rem;
+  }
+}
+html body main section.xl_container.top_review .review .history_card .card_header p.name {
+  color: #E60161;
+  padding: 2rem 1rem 0rem;
+  width: 12rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_review .review .history_card .card_header p.name {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+}
+html body main section.xl_container.top_review .review .history_card .card_header ul {
+  padding-top: 1.2rem;
+  width: 12rem;
+}
+html body main section.xl_container.top_review .review .history_card .card_header ul li picture {
+  display: flex;
+  width: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_review .review .history_card .card_header ul li picture {
+    width: 1.7rem;
+  }
+}
+html body main section.xl_container.top_review .review .history_card .card_body {
+  position: relative;
+}
+html body main section.xl_container.top_review .review .history_card .card_body::before {
+  background: #CCCCCC;
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 0.2rem;
+  left: 4rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_review .review .history_card .card_body::before {
+    width: 0;
+  }
+}
+html body main section.xl_container.top_review .review .history_card .card_body p {
+  padding: 1.4rem 0 2.5rem 8.4rem;
+  line-height: 1.1;
+  letter-spacing: -0.1rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_review .review .history_card .card_body p {
+    padding: 1.4rem 0;
+  }
+}
+html body main section.xl_container.top_review .review .history_card .card_body div.detail {
+  background: rgba(255, 130, 130, 0.5019607843);
+  margin-left: 11.8rem;
+  padding: 1.4rem 1.6rem 0.8rem 2.1rem;
+  width: 79.8%;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_review .review .history_card .card_body div.detail {
+    margin: 0;
+    padding: 1.4rem 1.2rem;
+    width: 100%;
+  }
+}
+html body main section.xl_container.top_review .review .history_card .card_body div.detail h6 {
+  padding-left: 2.2rem;
+  position: relative;
+}
+html body main section.xl_container.top_review .review .history_card .card_body div.detail h6::before {
+  background: url(../image/top_return_ico1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  height: 4rem;
+  left: -1.4rem;
+  position: absolute;
+  top: 0.7rem;
+  width: 3rem;
+}
+html body main section.xl_container.top_review .review .history_card .card_body div.detail p {
+  background: white;
+  margin-top: 2rem;
+  padding: 0.4rem 0 2.4rem 1rem;
+}
+html body main section.xl_container.top_meeting {
+  padding-bottom: 15.8rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_meeting {
+    padding-bottom: 7rem;
+  }
+}
+html body main section.xl_container.top_meeting p {
+  padding: 1rem 1rem;
+  max-width: 122rem;
+  margin: 0 auto;
+}
+html body main section.xl_container.top_meeting ul {
+  margin: 0 auto;
+  max-width: 102rem;
+  padding: 10rem 1rem 0rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_meeting ul {
+    padding-top: 2rem;
+  }
+}
+html body main section.xl_container.top_meeting ul li a {
+  color: white;
+  background: #FF9A62;
+  font-size: 2.6rem;
+  line-height: 1.5;
+  padding: 2.4rem 7.2rem;
+}
+html body main section.xl_container.top_meeting ul li a:hover {
+  background: #222222;
+}
+@media only screen and (max-width: 1024px) {
+  html body main section.xl_container.top_meeting ul li a {
+    font-size: 1.9rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_meeting ul li a {
+    font-size: 1.6rem;
+  }
+}
+html body main section.xl_container.top_meeting ul li:nth-child(2) a {
+  padding: 2.4rem 10.2rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_meeting ul li:nth-child(2) a {
+    padding: 1.3rem 3.6rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.top_meeting ul li a {
+    padding: 1.3rem 3.3rem;
+  }
+}
+html body main section.xl_container.cast_mv {
+  padding: 0;
+}
+html body main section.xl_container.cast_mv div {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body main section.xl_container.cast_mv div p {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_mv div p {
+    font-size: 3rem;
+  }
+}
+html body main section.xl_container.cast_filter {
+  padding-top: 3.2rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_filter {
+    padding-top: 2.2rem;
+  }
+}
+html body main section.xl_container.cast_filter h2 {
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_filter h2 {
+    font-size: 1.8rem;
+  }
+}
+html body main section.xl_container.cast_filter label {
+  font-weight: bold;
+}
+html body main section.xl_container.cast_filter div.box_condition {
+  padding: 3rem 2rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_filter div.box_condition {
+    display: block;
+    padding: 3rem 1rem;
+  }
+}
+html body main section.xl_container.cast_filter div.box_condition div.calender_box {
+  justify-content: space-between;
+  align-items: center;
+  width: 45rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_filter div.box_condition div.calender_box {
+    width: 86%;
+  }
+  html body main section.xl_container.cast_filter div.box_condition div.calender_box span {
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+}
+html body main section.xl_container.cast_filter div.box_condition div.calender_box input {
+  box-shadow: 1px 2px 6px -1px darkgray;
+  width: 19rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_filter div.box_condition div.calender_box input {
+    width: 13rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_filter div.box_condition div.calender_box input:last-child {
+    margin-top: 0rem;
+  }
+}
+html body main section.xl_container.cast_filter div.box_condition div.select_box {
+  align-items: center;
+  justify-content: space-between;
+  width: 17rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_filter div.box_condition div.select_box {
+    padding-top: 2rem;
+    width: 13rem;
+  }
+}
+html body main section.xl_container.cast_filter div.box_condition div.select_box select {
+  box-shadow: 1px 2px 6px -1px darkgray;
+}
+html body main section.xl_container.cast_filter ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media only screen and (max-width: 1290px) {
+  html body main section.xl_container.cast_filter ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 1024px) {
+  html body main section.xl_container.cast_filter ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+html body main section.xl_container.cast_filter ul li {
+  border: 0.1rem gray solid;
+  padding-bottom: 2rem;
+  overflow: hidden;
+}
+html body main section.xl_container.cast_filter ul li.new_member {
+  position: relative;
+}
+html body main section.xl_container.cast_filter ul li.new_member::after {
+  background: #111111;
+  color: white;
+  content: "NEW";
+  position: absolute;
+  z-index: 10;
+  font-size: 2.1rem;
+  transform: rotate(-45deg);
+  top: -1.6rem;
+  left: -4.5rem;
+  width: 13rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+html body main section.xl_container.cast_filter ul li .human_card {
+  margin: 0 auto;
+}
+html body main section.xl_container.cast_filter ul li .human_card h5 {
+  padding-top: 1rem;
+}
+html body main section.xl_container.cast_filter ul li .human_card picture {
+  position: relative;
+}
+html body main section.xl_container.cast_filter ul li .human_card picture::after {
+  background: #111111;
+  color: white;
+  content: "12:00 ~ 23:00";
+  position: absolute;
+  z-index: 10;
+  font-size: 2.1rem;
+  bottom: 0rem;
+  left: 0;
+  opacity: 0.7;
+  text-align: center;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_filter ul li .human_card h5 {
+    font-size: 1.7rem;
+  }
+  html body main section.xl_container.cast_filter ul li .human_card p.infor, html body main section.xl_container.cast_filter ul li .human_card p.detail {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+}
+html body main section.xl_container.cast_detail div.detail_card {
+  padding: 0 3rem;
+}
+@media only screen and (max-width: 1024px) {
+  html body main section.xl_container.cast_detail div.detail_card {
+    display: block;
+  }
+}
+html body main section.xl_container.cast_detail div.detail_card h3.small_topic {
+  font-size: 4rem;
+  border-bottom: 1px black solid;
+  margin-top: 3rem;
+}
+html body main section.xl_container.cast_detail div.detail_card h3.small_topic span {
+  font-size: 2rem;
+  margin-left: 3rem;
+}
+html body main section.xl_container.cast_detail div.detail_card div.self_schedule {
+  margin-top: 3rem;
+}
+html body main section.xl_container.cast_detail div.detail_card div.self_schedule div {
+  margin: 0 0.1rem;
+}
+html body main section.xl_container.cast_detail div.detail_card div.self_schedule div p {
+  text-align: center;
+  line-height: 3;
+}
+html body main section.xl_container.cast_detail div.detail_card div.self_schedule div p.th {
+  background: #DFDCD7;
+}
+html body main section.xl_container.cast_detail div.detail_card div.self_schedule div p.td {
+  background: #F5F5F5;
+  line-height: 1.3;
+  padding: 1.5rem 0;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_detail div.detail_card div.self_schedule {
+    display: block;
+  }
+  html body main section.xl_container.cast_detail div.detail_card div.self_schedule div {
+    display: flex;
+    margin-bottom: 0.1rem;
+  }
+  html body main section.xl_container.cast_detail div.detail_card div.self_schedule div p:first-child {
+    width: 10rem;
+  }
+}
+html body main section.xl_container.cast_detail div.detail_card div.slider_group {
+  padding: 0 8rem;
+  width: 100%;
+}
+@media only screen and (max-width: 1290px) {
+  html body main section.xl_container.cast_detail div.detail_card div.slider_group {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  html body main section.xl_container.cast_detail div.detail_card div.slider_group {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+  }
+}
+html body main section.xl_container.cast_detail div.detail_card div.slider_group .slick-dots {
+  bottom: 20px;
+  z-index: 2000;
+}
+html body main section.xl_container.cast_detail div.detail_card div.slider_group .slick-dots li button {
+  width: 26px;
+  height: 4px;
+  padding: 0px;
+  color: white;
+  border: 0;
+  background: rgb(164, 163, 163);
+}
+html body main section.xl_container.cast_detail div.detail_card div.slider_group .slick-dots li.slick-active button {
+  background: white;
+}
+html body main section.xl_container.cast_detail div.detail_card div.slider_group .slick-next {
+  border: 0;
+  height: 3rem;
+  right: 1.5rem;
+  top: 47%;
+  width: 3rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_detail div.detail_card div.slider_group .slick-next {
+    right: -4.1rem;
+  }
+}
+html body main section.xl_container.cast_detail div.detail_card div.slider_group .slick-next:before {
+  color: gray;
+  content: ">";
+  font-family: monospace;
+  font-size: 6rem;
+}
+html body main section.xl_container.cast_detail div.detail_card div.slider_group .slick-prev {
+  border: 0;
+  height: 3rem;
+  left: 1.5rem;
+  top: 47%;
+  width: 3rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_detail div.detail_card div.slider_group .slick-prev {
+    left: -4.1rem;
+  }
+}
+html body main section.xl_container.cast_detail div.detail_card div.slider_group .slick-prev:before {
+  color: gray;
+  content: "<";
+  font-family: monospace;
+  font-size: 6rem;
+}
+html body main section.xl_container.cast_detail div.detail_card a img {
+  aspect-ratio: 1.1/1;
+  width: 4.3rem;
+}
+html body main section.xl_container.cast_detail div.detail_card .txt {
+  line-height: 2;
+  padding: 5rem 1rem 0;
+  width: 100%;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_detail div.detail_card .txt {
+    font-size: 1.2rem;
+  }
+}
+html body main section.xl_container.cast_detail div.detail_card div.detail, html body main section.xl_container.cast_detail div.detail_card .detail_cast {
+  background: rgba(81, 81, 81, 0.1333333333);
+  border: 1px gray solid;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 3rem 1rem 0;
+  margin: 3rem 0rem 0;
+  padding: 3rem;
+  width: 100%;
+}
+html body main section.xl_container.cast_detail div.detail_card div.detail h2, html body main section.xl_container.cast_detail div.detail_card .detail_cast h2 {
+  font-size: 3.3rem;
+  font-weight: bold;
+}
+html body main section.xl_container.cast_detail div.detail_card div.detail h2 span, html body main section.xl_container.cast_detail div.detail_card .detail_cast h2 span {
+  font-size: 2.4rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_detail div.detail_card div.detail h2, html body main section.xl_container.cast_detail div.detail_card .detail_cast h2 {
+    font-size: 2.8rem;
+  }
+  html body main section.xl_container.cast_detail div.detail_card div.detail h2 span, html body main section.xl_container.cast_detail div.detail_card .detail_cast h2 span {
+    font-size: 2rem;
+  }
+}
+html body main section.xl_container.cast_detail div.detail_card div.detail h3, html body main section.xl_container.cast_detail div.detail_card .detail_cast h3 {
+  border-bottom: gray 1px solid;
+  line-height: 4;
+}
+html body main section.xl_container.cast_detail div.detail_card div.detail h3 span, html body main section.xl_container.cast_detail div.detail_card .detail_cast h3 span {
+  display: inline-block;
+  font-weight: bold;
+  width: 15rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_detail div.detail_card div.detail h3 span, html body main section.xl_container.cast_detail div.detail_card .detail_cast h3 span {
+    width: 11rem;
+  }
+}
+html body main section.xl_container.cast_detail div.detail_card div.detail p, html body main section.xl_container.cast_detail div.detail_card .detail_cast p {
+  border-bottom: gray 1px solid;
+  line-height: 4;
+  display: flex;
+  justify-content: space-between;
+}
+html body main section.xl_container.cast_detail div.detail_card div.detail p:last-child, html body main section.xl_container.cast_detail div.detail_card .detail_cast p:last-child {
+  display: block;
+}
+html body main section.xl_container.cast_detail div.detail_card div.detail p span, html body main section.xl_container.cast_detail div.detail_card .detail_cast p span {
+  display: inline-block;
+  font-weight: bold;
+  width: 15rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_detail div.detail_card div.detail p span, html body main section.xl_container.cast_detail div.detail_card .detail_cast p span {
+    width: 11rem;
+  }
+}
+html body main section.xl_container.cast_detail div.detail_card .detail_cast {
+  padding: 3rem 0;
+  position: relative;
+}
+html body main section.xl_container.cast_detail div.detail_card .detail_cast::before, html body main section.xl_container.cast_detail div.detail_card .detail_cast::after {
+  content: "";
+  background: url(../image/box_corner.png) no-repeat;
+  left: 0.4rem;
+  top: 0.4rem;
+  height: 5.5rem;
+  position: absolute;
+  width: 5.5rem;
+}
+html body main section.xl_container.cast_detail div.detail_card .detail_cast::after {
+  left: auto;
+  right: 0.4rem;
+  transform: scale(-1, 1);
+}
+html body main section.xl_container.cast_detail div.detail_card .detail_cast div {
+  background: url(../image/point.svg) repeat-x center center;
+  position: relative;
+  margin: 0 auto;
+  width: calc(100% - 6rem);
+}
+html body main section.xl_container.cast_detail div.detail_card .detail_cast div.bottom_deco {
+  background: none;
+  padding: 3.3rem 0 0;
+  width: 100%;
+}
+html body main section.xl_container.cast_detail div.detail_card .detail_cast div.bottom_deco::before, html body main section.xl_container.cast_detail div.detail_card .detail_cast div.bottom_deco::after {
+  content: "";
+  background: url(../image/box_corner.png) no-repeat;
+  left: 0.4rem;
+  top: 0.4rem;
+  height: 5.5rem;
+  position: absolute;
+  transform: scale(1, -1);
+  width: 5.5rem;
+}
+html body main section.xl_container.cast_detail div.detail_card .detail_cast div.bottom_deco::after {
+  left: auto;
+  right: 0.4rem;
+  transform: scale(-1, -1);
+}
+html body main section.xl_container.cast_detail div.detail_card .detail_cast p {
+  background: #e8e8e8;
+  border-bottom: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+html body main section.xl_container.cast_detail div.detail_card .detail_cast p span {
+  display: contents;
+}
+html body main section.xl_container.cast_detail div.detail_card .detail_cast h3 {
+  color: #A8763E;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 2.5rem;
+  font-size: 3rem;
+  line-height: 2;
+  margin: 0 auto;
+  border-bottom: 1px #A8763E solid;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+html body main section.xl_container.cast_detail a.good {
+  background: #FF9A62;
+  color: white;
+  display: block;
+  display: flex;
+  font-size: 3.2rem;
+  height: 7.4rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+  margin-top: 6rem;
+  width: 20.5rem;
+}
+html body main section.xl_container.cast_detail div.cast_commit {
+  padding: 0 3rem;
+}
+html body main section.xl_container.cast_detail div.cast_commit p {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+html body main section.xl_container.cast_detail div.cast_commit div.input_box form {
+  border: 2px solid #0089FF;
+  border-radius: 1rem;
+}
+html body main section.xl_container.cast_detail div.cast_commit div.input_box form textarea {
+  border-bottom: 1px solid rgb(120, 120, 120);
+  display: flex;
+  height: 14rem;
+  margin: 3rem auto;
+  padding: 1rem;
+  width: 90%;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_detail div.cast_commit div.input_box form textarea {
+    height: 9rem;
+  }
+}
+html body main section.xl_container.cast_detail div.cast_commit div.input_box form ul {
+  width: 19rem;
+  padding: 0 0 1rem 5rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_detail div.cast_commit div.input_box form ul {
+    padding: 0 0 1rem 1.4rem;
+    width: 10rem;
+  }
+}
+html body main section.xl_container.cast_detail div.cast_commit div.input_box form ul img {
+  width: 2.2rem;
+}
+html body main section.xl_container.cast_detail div.cast_commit div.input_box form ul li:last-child img {
+  width: 3.5rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.cast_detail div.cast_commit div.input_box form ul img {
+    width: 1.5rem;
+  }
+  html body main section.xl_container.cast_detail div.cast_commit div.input_box form ul li:last-child img {
+    width: 2.5rem;
+  }
+}
+html body main section.xl_container.cast_detail div.cast_commit div.input_box form button {
+  background: #F24E1E;
+  border-radius: 0.7rem;
+  color: white;
+  line-height: 2.5;
+  margin: 0 2rem 1.6rem 0;
+  padding: 0 0.9rem;
+}
+html body main section.xl_container.cast_detail div.cast_commit div.input_box form button:hover {
+  background: #111111;
+}
+html body main section.xl_container.cast_detail div.cast_commit div.input_box div.cast_reviews .cast_review {
+  padding: 2rem 1rem 0;
+}
+html body main section.xl_container.cast_detail div.cast_commit div.input_box div.cast_reviews .cast_review p {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+html body main section.xl_container.cast_detail div.cast_commit div.input_box div.cast_reviews .cast_review p.th {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.3764705882);
+}
+html body main section.xl_container.cast_detail div.cast_commit div.input_box div.cast_reviews .cast_review p.td {
+  color: #000000;
+  padding-left: 1rem;
+}
+@media only screen and (max-width: 1024px) {
+  html body main section.xl_container.review_box {
+    padding-top: 0;
+  }
+}
+html body main section.xl_container.review_box .review {
+  width: 100%;
+}
+html body main section.xl_container.review_box .red_btn {
+  margin-top: 6rem;
+}
+html body main section.xl_container.price_info {
+  padding-top: 7.2rem;
+}
+html body main section.xl_container.price_info .price_info .price_detail h3 {
+  background: #D9D9D9;
+  border-bottom: 3px solid #FBF100;
+  font-weight: bold;
+  line-height: 4;
+  padding-left: 3rem;
+}
+html body main section.xl_container.price_info .price_info .price_detail div.table {
+  padding: 4rem 2rem 0;
+  width: 100%;
+}
+html body main section.xl_container.price_info .price_info .price_detail div.table textarea {
+  border: 2px #111111 solid;
+  padding: 1rem;
+  width: 100%;
+}
+html body main section.xl_container.price_info .price_info .price_detail div.table div {
+  display: flex;
+  width: 100%;
+}
+html body main section.xl_container.price_info .price_info .price_detail div.table div .th, html body main section.xl_container.price_info .price_info .price_detail div.table div .td {
+  border: 1px solid #B9B9B9;
+  font-size: 1.2rem;
+  flex-direction: column;
+  height: 7rem;
+  text-align: center;
+  padding: 2rem 0;
+  width: 16.667%;
+}
+html body main section.xl_container.price_info .price_info .price_detail div.table div .th span input, html body main section.xl_container.price_info .price_info .price_detail div.table div .td span input {
+  max-width: 6rem;
+  width: 70%;
+}
+html body main section.xl_container.price_info .price_info .price_detail div.table div .th {
+  background: rgba(0, 0, 0, 0.0470588235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+html body main section.xl_container.price_info .price_info .price_detail div.table div:nth-child(4) p:nth-child(3), html body main section.xl_container.price_info .price_info .price_detail div.table div:nth-child(5) p:nth-child(3), html body main section.xl_container.price_info .price_info .price_detail div.table div:nth-child(6) p:nth-child(3) {
+  width: 66.666%;
+}
+html body main section.xl_container.price_info .price_info .price_detail div.table div:nth-child(7) p:nth-child(2), html body main section.xl_container.price_info .price_info .price_detail div.table div:nth-child(8) p:nth-child(2), html body main section.xl_container.price_info .price_info .price_detail div.table div:nth-child(9) p:nth-child(2), html body main section.xl_container.price_info .price_info .price_detail div.table div:nth-child(10) p:nth-child(2) {
+  width: 83.33333%;
+}
+html body main section.xl_container.price_info .price_info .price_detail div.table.admin_table div .td {
+  display: flex;
+}
+html body main section.xl_container.price_info .price_info .price_detail ul {
+  list-style: disc;
+  padding: 6rem 2rem 5rem;
+}
+html body main section.xl_container.price_set {
+  padding: 0;
+}
+html body main section.xl_container.price_set .price_info .price_detail div.table {
+  padding: 4rem 0rem 0;
+  width: 100%;
+}
+html body main section.xl_container.course_realnews {
+  padding-top: 1rem;
+}
+html body main section.xl_container.course_realnews ul li {
+  padding-bottom: 3rem;
+}
+html body main section.xl_container.course_realnews ul li div.human_left_card picture {
+  width: 45%;
+}
+html body main section.xl_container.course_realnews ul li div.human_left_card .txt h5 {
+  font-size: 1.6rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.course_realnews ul li div.human_left_card .txt h5 {
+    padding: 2rem 0.5rem 0;
+  }
+}
+html body main section.xl_container.course_realnews ul li div.human_left_card .txt p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+html body main section.xl_container.course_review {
+  padding-top: 0;
+}
+html body main section.xl_container.course_review .tabs {
+  padding-bottom: 3rem;
+}
+html body main section.xl_container.course_review .tabs button {
+  background: rgba(239, 142, 142, 0.5019607843);
+  color: white;
+  line-height: 4;
+  width: 100%;
+}
+html body main section.xl_container.course_review .tabs button.active {
+  background: rgba(243, 2, 2, 0.5019607843);
+}
+html body main section.xl_container.course_review .tabs button:hover {
+  opacity: 0.6;
+}
+html body main section.xl_container.course_review .review .history_card .card_header p.index {
+  background: #150446;
+  color: white;
+  line-height: 2.7;
+}
+html body main section.xl_container.course_review .review .history_card .card_header p.name {
+  color: black;
+  padding: 0.8rem 1rem 0rem;
+  width: auto;
+  font-weight: bold;
+}
+html body main section.xl_container.course_review .review .history_card .card_body p {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  letter-spacing: 0rem;
+  padding: 1.4rem 0 2.5rem 10.4rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.course_review .review .history_card .card_body p {
+    padding: 1.4rem 1rem 2.5rem;
+  }
+}
+html body main section.xl_container.course_review .review .history_card .red_btn {
+  line-height: 1.6;
+  margin-top: 0rem;
+  padding: 0rem 1.8rem;
+}
+html body main section.xl_container.free_cast {
+  overflow-x: scroll;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10.2rem;
+  width: 95%;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.free_cast {
+    padding-top: 6rem;
+  }
+}
+html body main section.xl_container.free_cast div.man_cards {
+  margin: 0 0.4rem;
+  width: 19rem;
+}
+html body main section.xl_container.free_cast div.man_cards h4 {
+  background: #D9D9D9;
+  font-weight: bold;
+  line-height: 3;
+  text-align: center;
+}
+html body main section.xl_container.free_cast div.man_cards div.man_card {
+  align-items: center;
+  min-width: 12.3rem;
+  padding-top: 1.3rem;
+}
+html body main section.xl_container.free_cast div.man_cards div.man_card img {
+  height: 2.6rem;
+  width: 2.6rem;
+  margin-right: 1rem;
+}
+html body main section.xl_container.free_cast div.man_cards div.man_card p {
+  display: contents;
+}
+html body main section.xl_container.terms_services {
+  padding-top: 10.2rem;
+}
+html body main section.xl_container.terms_services h3 {
+  font-size: 3rem;
+  margin-top: -4rem;
+  padding-bottom: 4rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.terms_services h3 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.terms_services {
+    padding-top: 6rem;
+  }
+}
+html body main section.xl_container.terms_services picture {
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+html body main section.xl_container.terms_services picture img {
+  margin: 0 auto 6rem;
+  max-width: 70%;
+  width: 69rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.terms_services picture img {
+    margin-bottom: 3rem;
+  }
+}
+html body main section.xl_container.terms_services ul {
+  list-style: none;
+  margin: 0 auto;
+  max-width: 100rem;
+  padding-left: 3rem;
+  width: 95%;
+}
+html body main section.xl_container.terms_services ul li span {
+  line-height: 2;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.terms_services ul li span {
+    font-size: 1.4rem;
+  }
+}
+html body main section.xl_container.input_modal_box {
+  display: none;
+}
+html body main section.xl_container.input_modal_box.active {
+  background: rgba(255, 255, 255, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 100000;
+}
+html body main section.xl_container.input_modal_box.active .input_modal {
+  background: white;
+  border: 4px black solid;
+  padding: 3rem 3rem 0rem;
+  width: 69rem;
+}
+html body main section.xl_container.input_modal_box.active .input_modal div.box_condition {
+  padding: 0rem 0rem 3rem;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.input_modal_box.active .input_modal div.box_condition {
+    padding-bottom: 0;
+  }
+}
+html body main section.xl_container.input_modal_box.active .input_modal .row_gap {
+  padding: 1rem 0;
+}
+html body main section.xl_container.input_modal_box.active .input_modal p.row_gap {
+  padding-top: 3rem;
+}
+html body main section.xl_container.input_modal_box.active .input_modal div.select_box {
+  align-items: center;
+  justify-content: end;
+  width: 18rem;
+}
+html body main section.xl_container.input_modal_box.active .input_modal label {
+  display: block;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+html body main section.xl_container.input_modal_box.active .input_modal input {
+  border: 1px solid black;
+  border-radius: 0.6rem;
+  line-height: 2.3;
+  padding-left: 2rem;
+}
+html body main section.xl_container.input_modal_box.active .input_modal div.calender_box label {
+  margin-right: 0rem;
+}
+html body main section.xl_container.input_modal_box.active .input_modal div.calender_box input {
+  padding-left: 0.3rem;
+}
+html body main section.xl_container.input_modal_box.active .input_modal select {
+  height: 4rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+html body main section.xl_container.input_modal_box.active .input_modal p {
+  font-size: 1.4rem;
+  letter-spacing: -0.1rem;
+}
+html body main section.xl_container.input_modal_box.active .input_modal textarea {
+  border: 1px rgb(111, 111, 111) solid;
+  border-radius: 0.5rem;
+  height: 13rem;
+  padding: 1rem;
+  width: 100%;
+}
+html body main section.xl_container.input_modal_box.active .input_modal button {
+  background: #F24E1E;
+  color: white;
+  line-height: 2.7;
+  padding: 0 2rem;
+}
+html body main section.xl_container.input_modal_box.active .input_modal button:first-child {
+  margin-right: 2rem;
+  background: #919EAB;
+}
+@media only screen and (max-width: 768px) {
+  html body main section.xl_container.input_modal_box.active .input_modal {
+    height: 33rem;
+    padding: 1rem 0.7rem;
+    width: 39rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal div.box_condition div.calender_box {
+    width: 100%;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal div.calender_box input:last-child {
+    margin-top: 0rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal input {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    padding-left: 1rem;
+    width: 10rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal label {
+    font-size: 1.2rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal select {
+    font-size: 1.3rem;
+    height: 2.3rem;
+    width: 10.2rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal div.select_box {
+    justify-content: start;
+    width: 18rem;
+    padding-top: 0.7rem;
+    padding-bottom: 1.1rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal div.select_box label {
+    margin-right: 4.5rem;
+    width: 4rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal div.calender_box input {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    width: 15rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal div.select_box select {
+    line-height: 1.6;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal div.calender_box span {
+    margin-left: 0rem;
+    margin-top: -0.3rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal .row_gap {
+    padding: 0.2rem 0;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal .row_gap div {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 0.6rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal p.row_gap {
+    font-size: 1.2rem;
+    padding-top: 0rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal .date_text_in {
+    display: block;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal textarea {
+    height: 8.2rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal button {
+    background: #F24E1E;
+    color: white;
+    line-height: 1.6;
+    padding: 0 1.2rem;
+  }
+  html body main section.xl_container.input_modal_box.active .input_modal button:first-child {
+    margin-right: 1.1rem;
+  }
+}
+html body main.scroll {
+  padding-top: 8rem;
+  transition: all ease-in-out 300ms;
+}
+html body footer.xl_container {
+  background: black;
+  color: white;
+  padding: 4rem 6rem;
+}
+@media only screen and (max-width: 768px) {
+  html body footer.xl_container {
+    padding: 4rem 2rem;
+  }
+}
+html body footer.xl_container div h2 {
+  font-size: 4.3rem;
+  color: white;
+  padding-left: 4rem;
+}
+html body footer.xl_container div h2 img {
+  height: 10rem;
+  width: 25.4rem;
+}
+@media only screen and (max-width: 768px) {
+  html body footer.xl_container div h2 {
+    font-size: 3rem;
+    padding-left: 3rem;
+  }
+  html body footer.xl_container div h2 img {
+    height: 6.6rem;
+    width: 14.4rem;
+  }
+}
+html body footer.xl_container div img {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+@media only screen and (max-width: 768px) {
+  html body footer.xl_container div img {
+    height: 3.8rem;
+    width: 3.8rem;
+  }
+}
+html body footer.xl_container div.list p {
+  color: white;
+  letter-spacing: 0.05rem;
+  line-height: 1.3;
+  text-align: center;
+  padding-top: 2.8rem;
+}
+html body footer.xl_container div.list ul {
+  list-style: disc;
+  padding-left: 16%;
+  padding-top: 3rem;
+}
+html body footer.xl_container div.list ul li {
+  color: white;
+}
+html body footer.xl_container div.list ul li a {
+  color: white;
+  font-size: 2.3rem;
+  line-height: 1.4;
+}
+@media only screen and (max-width: 768px) {
+  html body footer.xl_container div.list ul li a {
+    font-size: 1.6rem;
+  }
+}
+form#userFormprofile .img_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 1rem 5rem 3rem;
+  width: 30rem;
+}
+form#userFormprofile .img_box picture {
+  background: gainsboro;
+  border: 1px #111111 solid;
+  border-radius: 50%;
+  display: flex;
+  height: 24rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 24rem;
+}
+form#userFormprofile .img_box picture img {
+  border-radius: 50%;
+  width: 24rem;
+}
+form#userFormprofile .img_box input {
+  margin-top: 3rem;
+  width: 10.4rem;
+}
+form#userFormprofile .inform_box {
+  padding: 4rem 2rem;
+}
+form#userFormprofile .inform_box input, form#userFormprofile .inform_box textarea, form#userFormprofile .inform_box select {
+  border: 1px solid #111111;
+  border-radius: 0.3rem;
+  padding: 0.6rem 1rem;
+  width: 100%;
+}
+form#userFormprofile .inform_box label {
+  display: inline-block;
+  font-weight: 600;
+  margin: 2.3rem 0 1.5rem;
+}
+form button {
+  border: #FF7008 2px solid;
+  border-radius: 0.2rem;
+  color: #FF7008;
+  font-weight: bold;
+  height: 5.5rem;
+  margin: 4rem 2rem 3rem 0;
+  width: 16rem;
+}
+form button:last-child {
+  background: #FF7008;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  form button {
+    height: 3.5rem;
+  }
+}
+form#userFormdiary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  width: 100%;
+}
+form#userFormdiary picture {
+  max-width: 44rem;
+  display: block;
+  width: 95%;
+  margin: 3rem auto;
+  min-height: 15rem;
+  border: 2px #111111 solid;
+}
+form#userFormdiary picture img {
+  width: 100%;
+}
+form#userFormdiary input, form#userFormdiary textarea {
+  border: 1px solid #111111;
+  border-radius: 0.6rem;
+  margin: 3rem 0;
+  padding: 0.6rem 1rem;
+}
+form#userFormdiary input#image, form#userFormdiary textarea#image {
+  border: 0;
+  margin: 1rem 0 4rem;
+  margin-bottom: 4rem;
+}
+form#userFormdiary label {
+  display: block;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+}
+form#userFormdiary .content_box ul {
+  width: 9rem;
+}
+form#userFormdiary .content_box ul li img {
+  width: 2rem;
+}
+form#userFormdiary .content_box ul li:last-child img {
+  width: 3rem;
+}
+form#userFormdiary button {
+  margin: 4rem 3rem 3rem;
+}
+form h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.diary_box {
+  padding: 3rem;
+}
+@media only screen and (max-width: 768px) {
+  .diary_box {
+    width: calc(100% - 11rem);
+  }
+}
+.diary_box button.add_diary {
+  background: #FF7008;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 2.7rem;
+  font-weight: bold;
+  height: 5.3rem;
+  margin-bottom: 3rem;
+  width: 20rem;
+}
+@media only screen and (max-width: 768px) {
+  .diary_box button.add_diary {
+    font-size: 1.7rem;
+    height: 3.3rem;
+    margin-bottom: 2rem;
+    width: 13rem;
+  }
+}
+.diary_box ul#diary_table {
+  width: 100%;
+}
+.diary_box ul#diary_table li {
+  display: flex;
+  width: 100%;
+}
+.diary_box ul#diary_table li div {
+  align-items: center;
+  border: #B9B9B9 1px solid;
+  display: flex;
+  line-height: 1.5;
+  height: 6.2rem;
+  padding-left: 1rem;
+}
+.diary_box ul#diary_table li div span {
+  max-height: 5.2rem;
+  overflow: hidden;
+  font-size: 1.2rem;
+}
+.diary_box ul#diary_table li div.th {
+  background: rgba(0, 0, 0, 0.0980392157);
+  justify-content: center;
+  line-height: 2.5;
+  padding-left: 0rem;
+}
+.diary_box ul#diary_table li div.th span {
+  font-weight: bold;
+  font-size: 1.6rem;
+  overflow-wrap: break-word;
+  text-align: center;
+  width: 100%;
+}
+.diary_box ul#diary_table li div.th.actions {
+  width: 9.5%;
+  justify-content: center;
+  padding: 0 0.7rem;
+}
+.diary_box ul#diary_table li div.num {
+  width: 3.5%;
+}
+.diary_box ul#diary_table li div.title {
+  width: 23.5%;
+}
+.diary_box ul#diary_table li div.content {
+  width: 50.5%;
+}
+.diary_box ul#diary_table li div.created {
+  width: 13.5%;
+}
+.diary_box ul#diary_table li div.from {
+  width: 10%;
+}
+.diary_box ul#diary_table li div.to {
+  width: 10%;
+}
+.diary_box ul#diary_table li div.customer {
+  width: 13%;
+}
+.diary_box ul#diary_table li div.course {
+  width: 13%;
+}
+.diary_box ul#diary_table li div.course.awork {
+  width: 9%;
+}
+.diary_box ul#diary_table li div.address {
+  width: 27%;
+}
+.diary_box ul#diary_table li div.address.aschedul {
+  width: 22%;
+}
+.diary_box ul#diary_table li div.host {
+  width: 5%;
+}
+.diary_box ul#diary_table li div.price {
+  width: 7%;
+}
+.diary_box ul#diary_table li div.purchase {
+  width: 7%;
+}
+.diary_box ul#diary_table li div.avatar {
+  width: 7.5%;
+}
+.diary_box ul#diary_table li div.avatar img {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  width: 3rem;
+}
+.diary_box ul#diary_table li div.name {
+  width: 22%;
+}
+.diary_box ul#diary_table li div.ranking {
+  width: 6.6%;
+}
+.diary_box ul#diary_table li div.level {
+  width: 7%;
+}
+.diary_box ul#diary_table li div.age {
+  width: 5%;
+}
+.diary_box ul#diary_table li div.tall {
+  width: 6%;
+}
+.diary_box ul#diary_table li div.weight {
+  width: 8%;
+}
+.diary_box ul#diary_table li div.call {
+  width: 16%;
+}
+.diary_box ul#diary_table li div.hostname {
+  width: 12%;
+}
+.diary_box ul#diary_table li div.w_state {
+  padding-right: 1rem;
+  width: 9.5%;
+}
+.diary_box ul#diary_table li div.w_state span.cell {
+  border-radius: 1.3rem;
+  color: white;
+  margin-top: 0.3rem;
+  max-width: 7.8rem;
+  text-align: center;
+  width: 100%;
+  line-height: 2;
+}
+.diary_box ul#diary_table li div.w_state span.cell.state1 {
+  background: #5B5151;
+}
+.diary_box ul#diary_table li div.w_state span.cell.state2 {
+  background: #FE5E05;
+}
+.diary_box ul#diary_table li div.w_state span.cell.state3 {
+  background: #16BB3A;
+}
+.diary_box ul#diary_table li div.point {
+  width: 8%;
+}
+.diary_box ul#diary_table li div.actions {
+  width: 9.5%;
+  justify-content: center;
+  padding: 0 0.7rem;
+}
+.diary_box ul#diary_table li div.actions.schedule_allow {
+  flex-direction: column;
+  justify-content: center;
+}
+.diary_box ul#diary_table li div.actions span.cancel {
+  width: 100%;
+}
+.diary_box ul#diary_table li div button {
+  background: url("../image/ico/edit_ico.png"), #08CA4A;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 1.1rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.diary_box ul#diary_table li div button.delete {
+  background: url("../image/ico/delete_ico.png"), #FF8282;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 0.3rem;
+  margin-left: 1rem;
+}
+.diary_box ul#diary_table li div button.cancel {
+  background: #FC0000;
+  border-radius: 1.3rem;
+  color: white;
+  margin-top: 0.3rem;
+  max-width: 7.8rem;
+  width: 100%;
+}
+.diary_box ul#diary_table li div button.cancel.green {
+  background: #16BB3A;
+}
+.diary_box ul#diary_table li div button.not {
+  background: #FC0000;
+  color: white;
+  width: 100%;
+  max-width: 7.8rem;
+  border-radius: 1.3rem;
+}
+.diary_box ul#diary_table li div button.read {
+  background: #16BB3A;
+  color: white;
+  width: 100%;
+  max-width: 7.8rem;
+  border-radius: 1.3rem;
+}
+.diary_box .work_state p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+.diary_box .work_state .state_lines {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0rem 0 4rem;
+}
+.diary_box .work_state .state_lines div {
+  border-top: 0.3rem #C1C9D2 solid;
+  padding-left: 3rem;
+  position: relative;
+}
+.diary_box .work_state .state_lines div::after {
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  height: 1.6rem;
+  left: 0.3rem;
+  top: 0.4rem;
+  width: 1.6rem;
+}
+.diary_box .work_state .state_lines div.step1 {
+  border-color: #C1C9D2;
+}
+.diary_box .work_state .state_lines div.step1::after {
+  border: 2px #C1C9D2 solid;
+}
+.diary_box .work_state .state_lines div.step2 {
+  border-color: #5469D4;
+}
+.diary_box .work_state .state_lines div.step2::after {
+  border: 5px #5469D4 solid;
+}
+.diary_box .work_state .state_lines div.step3 {
+  border-color: #697386;
+}
+.diary_box .work_state .state_lines div.step3::after {
+  background: url(../image/ico/check_ico.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+div.add_schedule {
+  background: rgba(0, 0, 0, 0.6274509804);
+  display: none;
+  height: 50%;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+div.add_schedule.action {
+  display: flex;
+}
+div.add_schedule form {
+  background: white;
+  border: 1px gray solid;
+  padding: 3rem;
+  width: 60rem;
+}
+div.add_schedule form input, div.add_schedule form select {
+  border: 1px black solid;
+  border-radius: 0.5rem;
+  line-height: 2;
+  padding-left: 1rem;
+  margin: 0 2rem;
+  width: 20rem;
+}
+div.add_schedule form div {
+  margin: 2rem 0;
+}
+div.add_schedule form label {
+  width: 10rem;
+}
+div.add_schedule form p {
+  padding-top: 1rem;
+}
+div.add_schedule form .calender_box input {
+  margin: 0 2rem;
+  width: 20rem;
+}
+
+.message_box {
+  background: #D9D9D9;
+  padding: 3rem;
+}
+.message_box .userList {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  width: 22%;
+}
+.message_box .userList p {
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+}
+.message_box .userList div img {
+  aspect-ratio: 1/1;
+  border: 1px black solid;
+  border-radius: 50%;
+  height: 1.8rem;
+  margin: 1rem 1rem;
+  width: 1.8rem;
+}
+.message_box .showMessage .show_box {
+  background: white;
+  border-radius: 1rem;
+  height: calc(100% - 8rem);
+  margin-bottom: 1rem;
+  padding: 3rem 2rem;
+}
+.message_box .showMessage .show_box p {
+  font-size: 1.4rem;
+  overflow-wrap: break-word;
+  line-height: 2;
+}
+.message_box .showMessage .show_box p.text-right {
+  font-size: 1.2rem;
+  color: gray;
+  border-bottom: 1px #111111 dashed;
+}
+.message_box .showMessage .show_box div.flex {
+  margin-bottom: 3rem;
+}
+.message_box .showMessage .show_box .receiveBox {
+  flex-direction: row-reverse;
+}
+
+.sendText {
+  position: relative;
+}
+.sendText textarea {
+  background: white;
+  border-radius: 1rem;
+  height: 7rem;
+  padding: 1rem;
+  width: 100%;
+}
+.sendText button {
+  background: url(../image/ico/left_arrow_ico.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: 1rem;
+  height: 3rem;
+  top: 2rem;
+  position: absolute;
+  width: 3rem;
+}
+
+.show_review {
+  background: gainsboro;
+  padding: 3rem 2rem;
+}
+.show_review .show_box {
+  background: white;
+  border-radius: 1rem;
+  height: 100%;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+.show_review .show_box.a_review {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: auto;
+  margin-bottom: 0rem;
+}
+.show_review .show_box .review {
+  border-bottom: 1px #111111 dashed;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.show_review .show_box .review p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+.show_review .show_box .review .reviewsText {
+  border: 1px #111111 solid;
+  color: #686767;
+  padding-right: 3.4rem;
+  outline: none;
+}
+.show_review .show_box .review button.read {
+  background: #5bcc5b;
+  border: 1px #111111 solid;
+  border-radius: 1rem;
+  height: 4rem;
+  margin: 2rem auto 1rem;
+  width: 18rem;
+}
+.show_review .show_box .review button.not {
+  background: red;
+  border: 1px #111111 solid;
+  border-radius: 1rem;
+  height: 4rem;
+  margin: 2rem auto 1rem;
+  width: 18rem;
+}
+
+.work_status .work_search div {
+  line-height: 2;
+}
+.work_status .work_search div.date_input {
+  width: 25%;
+}
+.work_status .work_search div.date_input {
+  width: 30%;
+}
+.work_status .work_search div.date_input input {
+  width: 13rem;
+}
+.work_status .work_search div.date_input input:focus-visible {
+  outline: none;
+}
+.work_status .work_search div.course_input {
+  width: 21%;
+}
+.work_status .work_search div.course_input input {
+  width: 73%;
+}
+.work_status .work_search div.hosts_input {
+  width: 22%;
+}
+.work_status .work_search div.hosts_input select {
+  width: 15rem;
+}
+.work_status .work_search div label {
+  background: rgb(215, 215, 215);
+  border: 1px gray solid;
+  height: 3rem;
+  line-height: 1.7;
+  padding: 0rem 1rem;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+.work_status .work_search div input, .work_status .work_search div select {
+  border: 1px gray solid;
+  line-height: 2;
+  height: 3rem;
+}
+.work_status .work_search div input {
+  padding: 0rem 0.5rem;
+}
+.work_status .work_search button {
+  padding: 0 1rem;
+  width: 9rem;
+}
+.work_status .work_search button.clean {
+  border: gray 1px solid;
+}
+.work_status .work_search button.search {
+  background: #FF7008;
+  color: white;
+}
+.work_status .work_state {
+  padding: 2rem;
+}
+.work_status .work_state div div {
+  display: flex;
+  width: 20rem;
+}
+.work_status .work_state div div p {
+  font-size: 1.3rem;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  text-align: right;
+  padding: 1rem;
+  width: 50%;
+}
+
+.slick-dots li button:before {
+  content: "";
+}
+
+canvas {
+  width: 100%;
+  max-width: 80rem;
+}
+
+.color_index {
+  margin-bottom: 1rem;
+  margin-left: 0.8rem;
+}
+
+.color_index div {
+  height: 1.5rem;
+  margin-right: 1rem;
+  width: 5rem;
+}
+
+.color_index.total_incoming div {
+  background: #CFE5F9;
+}
+
+.color_index.purchase div {
+  background: #C9FAAA;
+}
+
+.color_index.customer div {
+  background: #5C6159;
+}
+
+.color_index p {
+  font-size: 1.2rem;
+}
+
+.working {
+  border-radius: 0.8rem;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.working h3 {
+  color: #F24E1E;
+  font-weight: bold;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.working p {
+  font-size: 1.2rem;
+}
+
+.working.dash_working {
+  background: #DBFCD3;
+  height: 32rem;
+  width: 49%;
+}
+
+.working.dash_schedule {
+  background: #F2C3C3;
+  height: 32rem;
+  width: 49%;
+}
+
+.dash_schedule_box p {
+  margin-bottom: 1rem;
+}
+
+.working.dash_newhosts {
+  background: #FF89E5;
+  height: 23rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.working.dash_newhosts img {
+  border-radius: 50%;
+  height: 3.6rem;
+  margin-right: 0.6rem;
+  width: 3.6rem;
+}
+
+.working.dash_newhosts .justify-between {
+  margin-bottom: 1rem;
+}
+
+.working.dash_report {
+  background: #D9D9D9;
+  height: 47rem;
+  margin-left: 1rem;
+}
+
+.working.dash_report_c {
+  height: 44.3rem;
+}
+
+.dash_report_c span {
+  font-weight: bold;
+}
+
+p.news_height {
+  max-height: 8.2rem;
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */

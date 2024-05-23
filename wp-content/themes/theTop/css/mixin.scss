@@ -1,0 +1,104 @@
+
+// Managing breakpoints can be a hassle. If you need to set up different CSS styles or layouts for different browser sizes, your code can get repetitive pretty quickly. Furthermore, you’re left using these breakpoint values at multiple points in your code. Thankfully, Sass has solutions for us to help DRY out your CSS and make managing breakpoints a bit more painless: Sass mixins.
+
+// Mixins
+// Sass mixins are extremely powerful and can help us cut down on repeated CSS blocks of code. If you haven’t used them before the syntax looks like this:
+ 
+
+@mixin red-on-black {
+    color: red;
+    background-color: black;
+}
+// And anywhere where you want to use this mixin, you can call it like so:
+
+.my-div {
+    @include red-on-black
+}
+
+//////////////////////////////////////////////////////////////
+// breakpoints.module.scss
+
+$xsBreakpoint: 576px;
+$smBreakpoint: 768px;
+$mdBreakpoint: 1024px;
+$lgBreakpoint: 1290px;
+$xlBreakpoint: 1440px;
+
+// Next, let’s define a mixin for each breakpoint value. We’ll use the @content tag here in order to input which lines of CSS we need to use for that breakpoint.
+
+// breakpoints.module.scss
+
+@mixin xs-xsBreakpoint {
+    @media only screen and (max-width: $xsBreakpoint){
+        @content
+    }   
+};
+
+@mixin sm-breakpoint {
+    @media only screen and (max-width: $smBreakpoint){
+        @content
+    }
+};
+
+@mixin md-breakpoint {
+    @media only screen and (max-width: $mdBreakpoint){
+        @content
+    }
+};
+
+@mixin lg-breakpoint {
+    @media only screen and (max-width: $lgBreakpoint){
+        @content
+    }
+};
+
+@mixin xl-breakpoint {
+    @media only screen and (max-width: $xlBreakpoint){
+        @content
+    }
+}
+
+.xs_container {
+    max-width: $xsBreakpoint;
+    padding: 0 1rem;
+    width: 100%;
+    @include sm-breakpoint {
+        padding: 0 0.5rem;
+    }
+}
+
+.sm_container {
+    max-width: $smBreakpoint;
+    padding: 0 1rem;
+    width: 100%;
+    @include sm-breakpoint {
+        padding: 0 0.5rem;
+    }
+}
+
+.md_container {
+    max-width: $mdBreakpoint;
+    padding: 0 1rem;
+    width: 100%;
+    @include sm-breakpoint {
+        padding: 0 0.5rem;
+    }
+}
+
+.lg_container {
+    max-width: $lgBreakpoint;
+    padding: 0 1rem;
+    width: 100%;
+    @include sm-breakpoint {
+        padding: 0 0.5rem;
+    }
+}
+
+.xl_container {
+    max-width: $xlBreakpoint;
+    padding: 0 1rem;
+    width: 100%;
+    @include sm-breakpoint {
+        padding: 0 0.5rem;
+    }
+}
